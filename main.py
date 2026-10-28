@@ -3,7 +3,7 @@ import json
 import sys
 from config import API_ENDPOINT, HEADERS, MODEL_NAME, TEMPERATURE
 from prompts import *
-from simulation_engine import HostileRetriever
+from simulation import HostileRetriever
 
 class ReflectiveRAG:
     def __init__(self):
